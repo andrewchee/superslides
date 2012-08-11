@@ -120,6 +120,10 @@ animate = (direction) ->
       $control.css
         left: -width
 
+      # reset children
+      $children.css
+        zIndex: 0
+
       # reset and show next
       $children.eq(next).css
         left: width

@@ -159,6 +159,9 @@
         $control.css({
           left: -width
         });
+        $children.css({
+          zIndex: 0
+        });
         $children.eq(next).css({
           left: width,
           zIndex: 2
